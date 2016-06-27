@@ -1,0 +1,9 @@
+<h1>Employees</h1>
+
+<% @employees.each do |employee| %>
+	<%= render partial: 'employee', locals: {employee: employee} %>
+	<br>
+<% end %>
+
+
+
